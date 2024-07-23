@@ -8,7 +8,7 @@ blinker==1.7.0
     # via flask
 brotli==1.1.0
     # via geventhttpclient
-certifi==2023.11.17
+certifi==2024.7.4
     # via
     #   geventhttpclient
     #   requests
@@ -35,7 +35,7 @@ geventhttpclient==2.0.11
     # via locust
 greenlet==3.0.2
     # via gevent
-idna==3.6
+idna==3.7
     # via requests
 itsdangerous==2.1.2
     # via flask
@@ -53,7 +53,7 @@ psutil==5.9.7
     # via locust
 pyzmq==25.1.2
     # via locust
-requests==2.31.0
+requests==2.32.2
     # via locust
 roundrobin==0.0.4
     # via locust
@@ -73,3 +73,4 @@ zope-interface==6.1
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
 setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
